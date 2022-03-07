@@ -6,8 +6,18 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
+  /* FLOWSER THEME */
+  --main-yellow-color: #E8A165;
+  --light-violet-color: #B2AFE8;
+  --light-blue-color: #B6D0F2;
+  --background-color: #F4F4F4;
+  --font-color: #222222;
+  --dark-blue-color: #141C2D;
+  --green-color: #33F8A6;
+
+  /* DOCUSAURUS THEME */
+  --ifm-color-primary: var(--font-color);
+  --ifm-color-primary-dark: var(--dark-blue-color);
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -18,8 +28,8 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary: var(--light-blue-color);
+  --ifm-color-primary-dark: var(--light-violet-color);
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
