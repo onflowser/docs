@@ -1,6 +1,16 @@
-# Website
+<div align="center">
+	<br>
+	<img alt="Flowser logo" src="static/img/logo.svg" width="150" height="150">
+	<h1>docs.flowser.dev</h1>
+	<p>
+		<b>Easily start you local Flow network & inspect the state.</b>
+	</p>
+	<br>
+	<br>
+</div>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+This documentation website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
