@@ -46,8 +46,9 @@ npm run dev:start
 
 Good job! This is the last step, before we can actually start making code changes. Now the app should be running, you can test that by visiting http://localhost:3000.
 
-> NOTE: If something isn't working as expected, try running `npm run dev:logs` to view logs from all containers or [submit a bug report](https://github.com/onflowser/flowser/issues/new?assignees=bartolomej&labels=bug%2C+feedback&template=bug_report.md&title=).
-
+:::tip
+If something isn't working as expected, try running `npm run dev:logs` to view logs from all containers or [submit a bug report](https://github.com/onflowser/flowser/issues/new?assignees=bartolomej&labels=bug%2C+feedback&template=bug_report.md&title=).
+:::
 
 ## Important notes
 

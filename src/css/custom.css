@@ -1,3 +1,4 @@
+@import url('https://use.typekit.net/sml5pan.css');
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -10,13 +11,14 @@
   --main-yellow-color: #E8A165;
   --light-violet-color: #B2AFE8;
   --light-blue-color: #B6D0F2;
+  --darker-blue-color: #50699c;
+  --dark-blue-color: #141C2D;
   --background-color: #F4F4F4;
   --font-color: #222222;
-  --dark-blue-color: #141C2D;
   --green-color: #33F8A6;
 
   /* DOCUSAURUS THEME */
-  --ifm-color-primary: var(--font-color);
+  --ifm-color-primary: var(--darker-blue-color);
   --ifm-color-primary-dark: var(--dark-blue-color);
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -24,6 +26,20 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+
+  font-size: 1rem;
+}
+
+.navbar__title {
+  font-size: 1.2rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: futura-pt, sans-serif;
+}
+
+code {
+  font-size: 0.7em;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

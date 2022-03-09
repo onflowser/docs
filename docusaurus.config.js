@@ -4,10 +4,12 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const metaDescription = 'Flowser (Stands for Flow Browser) is a convenient development tool for #Flow blockchain, which starts and indexes flow emulator or testnet blockchains 🤙';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Flowser Docs',
-  tagline: 'Flowser (Stands for Flow Browser) is a convenient development tool for #Flow blockchain, which starts and indexes flow emulator or testnet blockchains 🤙',
+  tagline: metaDescription,
   url: 'https://docs.flowser.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,8 +26,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/onflowser/docs/tree/main',
         },
         blog: false,
         theme: {
@@ -36,12 +37,23 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: 'description', content: metaDescription },
+        { property: 'og:description', content: metaDescription },
+        { property: 'og:title', content: 'Flowser docs' },
+        { property: 'og:site_name', content: 'Flowser' },
+        { property: 'og:image', content: 'https://flowser.dev/images/banner.png' },
+        { property: 'og:type', content: 'documentation' },
+        { name: 'twitter:description', content: metaDescription },
+        { name: 'twitter:image', content: 'https://flowser.dev/images/banner.png' },
+        { rel: 'canonical', content: 'https://docs.flowser.dev' },
+      ],
       navbar: {
         title: 'Flowser docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Flowser Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -51,6 +63,11 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
+          {
+            href: 'https://flowser.dev',
+            label: 'Website',
+            position: 'right',
+          },
           {
             href: 'https://github.com/onflowser/flowser',
             label: 'GitHub',
@@ -64,10 +81,18 @@ const config = {
           {
             title: 'Docs',
             items: [
-              // {
-              //   label: 'Tutorial',
-              //   to: '/intro',
-              // },
+              {
+                label: 'Getting Started',
+                to: '/getting-started',
+              },
+              {
+                label: 'Additional Resources',
+                to: '/resources',
+              },
+              {
+                label: 'Contributing',
+                to: '/contributing',
+              },
             ],
           },
           {

@@ -22,14 +22,19 @@ See: [Docker installation instructions](https://www.docker.com/get-started)
 This command will start Flowser with default configuration (recommended).
 
 ```bash
-bash run.sh start
-
-# or use npm if you have node installed
 npm run prod:start
 ```
 
-If flowser started successfully, you should see the bellow output:
+:::tip
+You can also run flowser with this helper bash script, if you don't have npm installed.
+
+```bash
+bash run.sh start
 ```
+:::
+
+If flowser started successfully, you should see the bellow output:
+```bash
 Creating frontend-prod ... done
 Creating database      ... done
 Creating backend-prod  ... done
