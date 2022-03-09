@@ -18,6 +18,12 @@ const config = {
   organizationName: 'onflowser', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
 
+  scripts: [{
+    src: 'https://cdn.splitbee.io/sb.js',
+    async: true,
+    'data-no-cookie': true
+  }],
+
   presets: [
     [
       'classic',
@@ -44,10 +50,16 @@ const config = {
         { property: 'og:description', content: metaDescription },
         { property: 'og:title', content: 'Flowser docs' },
         { property: 'og:site_name', content: 'Flowser' },
-        { property: 'og:image', content: 'https://flowser.dev/images/banner.png' },
+        {
+          property: 'og:image',
+          content: 'https://flowser.dev/images/banner.png'
+        },
         { property: 'og:type', content: 'documentation' },
         { name: 'twitter:description', content: metaDescription },
-        { name: 'twitter:image', content: 'https://flowser.dev/images/banner.png' },
+        {
+          name: 'twitter:image',
+          content: 'https://flowser.dev/images/banner.png'
+        },
         { rel: 'canonical', content: 'https://docs.flowser.dev' },
       ],
       navbar: {
