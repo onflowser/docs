@@ -36,7 +36,7 @@ Creating backend-prod  ... done
 Creating dev-wallet    ... done
 ```
 
-If you encounter any issues during app build or container start, check out our [Troubleshooting Guide](DEVELOPMENT.md#-troubleshooting).
+If you encounter any issues during app build or container start, check out our [Troubleshooting Guide](/resources/development#troubleshooting).
 
 ### 4. Open in browser
 

@@ -12,13 +12,13 @@ All the interaction between Flowser and Flow blockchain is handled by the [Flow 
 
 Fcl provides a single shared interface for interacting with any type of Flow blockchain network (testnet, mainnet, emulator,...). Because of that, Flowser has the ability to aggregate data from any Flow data source and currently supports Testnet and local Emulator blockchains.
 
-> See the [architectural diagram](./DEVELOPMENT.md#-architecture) in development guides to learn more.
+> See the [architectural diagram](/resources/architecture) in development guides to learn more.
 
 ### Emulator management
 
 User of Flowser doesn't need to know what the flow emulator is or that it even exists, because Flowser handles the creation and management of emulator networks by default.
 
-If the user however does want to run and manage flow emulator by himself (from CLI), he/she has the option to do that. Note that this is not the preferred way to use Flowser, because of [this issue with fcl-dev-wallet](./README.md#fcl-dev-wallet-support).
+If the user however does want to run and manage flow emulator by himself (from CLI), he/she has the option to do that. Note that this is not the preferred way to use Flowser, because of [this issue with fcl-dev-wallet](/getting-started/caveats#fcl-dev-wallet-support).
 
 ### Development wallet
 
