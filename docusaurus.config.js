@@ -12,7 +12,7 @@ const config = {
   tagline: metaDescription,
   url: 'https://docs.flowser.dev',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'onflowser', // Usually your GitHub org/user name.
@@ -83,11 +83,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/getting-started',
+                to: '/',
               },
               {
                 label: 'Additional Resources',
-                to: '/resources',
+                to: '/resources/development',
               },
               {
                 label: 'Contributing',
