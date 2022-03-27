@@ -112,7 +112,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/onflow',
+                href: 'https://twitter.com/onflowser',
               },
             ],
           },
