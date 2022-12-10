@@ -16,7 +16,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'onflowser', // Usually your GitHub org/user name.
-  projectName: 'documentation', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   scripts: [{
     src: 'https://cdn.splitbee.io/sb.js',
