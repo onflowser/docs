@@ -1,13 +1,4 @@
-<div align="center">
-	<br>
-	<img alt="Flowser logo" src="static/img/logo.svg" width="150" height="150">
-	<h1>docs.flowser.dev</h1>
-	<p>
-		<b>Easily start you local Flow network & inspect the state.</b>
-	</p>
-	<br>
-	<br>
-</div>
+![](https://user-images.githubusercontent.com/36109955/196263054-b42ecb52-340f-4982-bd62-404acb161d71.gif)
 
 
 This documentation website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.

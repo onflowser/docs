@@ -4,7 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const metaDescription = 'Flowser (Stands for Flow Browser) is a convenient development tool for #Flow blockchain, which starts and indexes flow emulator or testnet blockchains 🤙';
+const metaDescription = 'Flowser is first-of-its-kind development tool for Flow blockchain. It does the heavy work of managing blockchain emulator, inspecting the current state, interacting with the network and much more!';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -52,13 +52,13 @@ const config = {
         { property: 'og:site_name', content: 'Flowser' },
         {
           property: 'og:image',
-          content: 'https://flowser.dev/images/banner.png'
+          content: 'https://flowser.dev/social.png'
         },
         { property: 'og:type', content: 'documentation' },
         { name: 'twitter:description', content: metaDescription },
         {
           name: 'twitter:image',
-          content: 'https://flowser.dev/images/banner.png'
+          content: 'https://flowser.dev/social.png'
         },
         { rel: 'canonical', content: 'https://docs.flowser.dev' },
       ],
@@ -66,7 +66,7 @@ const config = {
         title: 'Flowser docs',
         logo: {
           alt: 'Flowser Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           // {
@@ -94,16 +94,24 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Getting Started',
-                to: '/',
+                label: 'What is Flowser?',
+                to: '/overview',
               },
               {
-                label: 'Additional Resources',
-                to: '/resources/development',
+                label: 'Quickstart',
+                to: '/quick-start',
+              },
+              {
+                label: 'Features',
+                to: '/features',
               },
               {
                 label: 'Contributing',
                 to: '/contributing',
+              },
+              {
+                label: 'Development guide',
+                to: '/development',
               },
             ],
           },
